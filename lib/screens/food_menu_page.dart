@@ -4,7 +4,6 @@ import 'package:panucci_ristorante/components/food_item.dart';
 
 class FoodMenu extends StatelessWidget {
   const FoodMenu({super.key});
-  final List foodMenu = comidas;
 
   @override
   Widget build(BuildContext context) {

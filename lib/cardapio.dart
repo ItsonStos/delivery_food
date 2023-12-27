@@ -52,7 +52,7 @@ const List<Map<String, dynamic>> comidas = [
   {"image": "$_imageInitialPath/tapioca-taco.jpg", "name": "Tapioca Taco", "price": "25.00"}
 ];
 
-const List<Object> drinks = [
+const List<Map<String, dynamic>> drinks = [
   {"image": "$_imageInitialPath/caipirinha.jpg", "name": "Caipirinha", "price": "12.00"},
   {"image": "$_imageInitialPath/special-drink1.png", "name": "BloodMary", "price": "18.00"},
   {"image": "$_imageInitialPath/special-drink2.png", "name": "Negroni", "price": "22.00"},
@@ -63,7 +63,7 @@ const List<Object> drinks = [
   {"image": "$_imageInitialPath/special-drink7.png", "name": "Jagger Bomb", "price": "27.00"}
 ];
 
-const List<Object> pedido = [
+const List<Map<String, dynamic>> pedido = [
   {
     "image": "$_imageInitialPath/chicken-salad.png",
     "name": "Chicken Salad",
